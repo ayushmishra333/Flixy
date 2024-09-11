@@ -24,20 +24,19 @@ const SignUp = () => {
 
     setIsSubmitting(true);
 
-     try {
-  //     await SignUp(form.email, form.password);
-       const result = await createUser(form.email, form.password, form.username);
-       setUser(result);
-       setIsLogged(true);
+    try {
+      const result = await createUser(form.email, form.password, form.username);
+      setUser(result);
+      setIsLogged(true);
 
       Alert.alert("Success", "User signed in successfully");
       router.replace("/home");
-     } catch (error) {
+    } catch (error) {
       Alert.alert("Error", error.message);
-     } finally {
-       setIsSubmitting(false);
-     }
- };
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <SafeAreaView className="bg-primary h-full">
