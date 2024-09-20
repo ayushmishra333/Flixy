@@ -3,6 +3,7 @@
     "name": "flixy",
     "scheme": "flixy",
     "slug": "flixy",
+    "description": "Flixy is a platform for uploading, sharing, and discovering AI-generated videos within the community",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -33,6 +34,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0fa75cd-ca4b-448d-802f-db74634af38c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f0fa75cd-ca4b-448d-802f-db74634af38c"
     }
   }
 }
