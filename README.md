@@ -1,6 +1,6 @@
 # Flixy: Video Sharing App
 
-![FlixyBanner](https://github.com/user-attachments/assets/bcc12c00-0965-404d-ad0e-725b7b46deb2)
+![flixy_banner](https://github.com/user-attachments/assets/a7ce922c-f97f-4a6b-9afd-7568a6e4f565)
 
 
 ## 📋 Table of Contents
